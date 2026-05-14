@@ -1,0 +1,264 @@
+/* ===============================
+   ?? PREMIUM HERO SECTION
+=================================*/
+.hero-premium {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    position: relative;
+    overflow: hidden;
+    padding: 80px 0;
+}
+
+    
+    .hero-premium::before {
+        content: "";
+        position: absolute;
+        width: 500px;
+        height: 500px;
+        background: rgba(255, 193, 7, 0.15);
+        border-radius: 50%;
+        top: -150px;
+        right: -150px;
+        filter: blur(120px);
+    }
+
+
+.hero-content h1 {
+    line-height: 1.2;
+}
+
+.hero-content p {
+    color: #dcdcdc;
+}
+
+.hero-content .btn-warning {
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+    .hero-content .btn-warning:hover {
+        background: #ffb300;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+    }
+
+.hero-content .btn-outline-light:hover {
+    background: white;
+    color: #000;
+}
+
+
+.hero-image {
+    height: 500px;
+}
+
+.phone-img {
+    width: 230px;
+    position: absolute;
+    transition: 0.4s ease;
+    filter: drop-shadow(0 20px 30px rgba(0,0,0,0.4));
+}
+
+.phone-main {
+    position: relative;
+    z-index: 3;
+    transform: scale(1.05);
+}
+
+
+.phone-left {
+    left: 0;
+    top: 80px;
+    transform: rotate(-15deg) scale(0.9);
+    opacity: 0.9;
+}
+
+
+.phone-right {
+    right: 0;
+    top: 80px;
+    transform: rotate(15deg) scale(0.9);
+    opacity: 0.9;
+}
+
+
+.hero-image:hover .phone-left {
+    transform: rotate(-20deg) scale(1);
+}
+
+.hero-image:hover .phone-right {
+    transform: rotate(20deg) scale(1);
+}
+
+.hero-image:hover .phone-main {
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 992px) {
+
+    .hero-image {
+        margin-top: 50px;
+        height: 400px;
+    }
+
+    .phone-img {
+        width: 180px;
+    }
+
+    .phone-left {
+        top: 60px;
+    }
+
+    .phone-right {
+        top: 60px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .hero-premium {
+        text-align: center;
+    }
+
+    .hero-image {
+        height: 350px;
+    }
+
+    .phone-img {
+        width: 140px;
+    }
+}
+
+/* ================= ABOUT HERO ================= */
+.about-hero {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    padding: 100px 0;
+}
+
+
+.about-content {
+    background: #f8f9fa;
+}
+
+.about-card {
+    background: white;
+    padding: 40px 25px;
+    border-radius: 20px;
+    transition: 0.3s;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+    .about-card:hover {
+        transform: translateY(-10px);
+    }
+
+    .about-card .icon {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+
+
+/* ================= CONTACT HERO ================= */
+.contact-hero {
+    background: linear-gradient(135deg, #141e30, #243b55);
+    padding: 100px 0;
+}
+
+
+.contact-section {
+    background: #f8f9fa;
+}
+
+
+.contact-info {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+
+.contact-form {
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+  
+    .contact-form .form-control {
+        border-radius: 12px;
+        padding: 12px;
+    }
+
+    .contact-form button:hover {
+        transform: translateY(-3px);
+        transition: 0.3s;
+    }
+
+/* ================= LOGIN SECTION ================= */
+.login-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #141e30, #243b55);
+}
+
+
+.login-box {
+    width: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+    
+    .login-box .form-control {
+        border-radius: 12px;
+        padding: 12px;
+        background: rgba(255,255,255,0.1);
+        border: none;
+        color: white;
+    }
+
+        .login-box .form-control::placeholder {
+            color: #ccc;
+        }
+
+        .login-box .form-control:focus {
+            background: rgba(255,255,255,0.15);
+            box-shadow: none;
+            color: white;
+        }
+
+    .login-box a {
+        color: #ffc107;
+        font-weight: 500;
+    }
+
+    .login-box button:hover {
+        transform: translateY(-3px);
+        transition: 0.3s;
+    }
+
+
+/* ================= PRODUCT SECTION ================= */
+
+
+.product-hero {
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+    .card img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }

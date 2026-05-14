@@ -1,0 +1,98 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section class="hero-section">
+    <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+        <!-- Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- Slides -->
+        <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active"
+                 style="height: 85vh; background: linear-gradient(135deg, #141e30, #243b55), url('/images/bansi.jpg') center/cover no-repeat;">
+                <div class="container h-100 d-flex align-items-center">
+                    <div class="row align-items-center w-100">
+                        <div class="col-lg-6 text-white text-center text-lg-start">
+                            <h1 class="fw-bold mb-2 display-5">
+                                Welcome to <span class="text-warning">PhoneMart</span>
+                            </h1>
+                            <p class="lead mb-3">
+                                Discover the Latest Smartphones at the Best Prices
+                            </p>
+                            <a asp-controller="Products" asp-action="Index"
+                               class="btn btn-warning btn-lg px-4 py-2 shadow">
+                                Shop Now
+                            </a>
+                        </div>
+                        <div class="col-lg-6 text-center mt-2 mt-lg-0">
+                            <img src="/images/b.jpg" alt="Latest Smartphone" class="img-fluid" style="max-height: 350px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item"
+                 style="height: 85vh; background: linear-gradient(135deg, #141e30, #243b55), url('/images/phone2.jpg') center/cover no-repeat;">
+                <div class="container h-100 d-flex align-items-center">
+                    <div class="row align-items-center w-100">
+                        <div class="col-lg-6 text-white text-center text-lg-start">
+                            <h1 class="fw-bold mb-2 display-5">
+                                Latest Deals on <span class="text-warning">Smartphones</span>
+                            </h1>
+                            <p class="lead mb-3">
+                                Upgrade your phone today with exclusive offers
+                            </p>
+                            <a asp-controller="Products" asp-action="Index"
+                               class="btn btn-warning btn-lg px-4 py-2 shadow">
+                                Shop Now
+                            </a>
+                        </div>
+                        <div class="col-lg-6 text-center mt-2 mt-lg-0">
+                            <img src="/images/b2.jpg" alt="Smartphone Deals" class="img-fluid" style="max-height: 350px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item"
+                 style="height: 85vh; background: linear-gradient(135deg, #141e30, #243b55), url('/images/phone3.jpg') center/cover no-repeat;">
+                <div class="container h-100 d-flex align-items-center">
+                    <div class="row align-items-center w-100">
+                        <div class="col-lg-6 text-white text-center text-lg-start">
+                            <h1 class="fw-bold mb-2 display-5">
+                                Explore <span class="text-warning">New Arrivals</span>
+                            </h1>
+                            <p class="lead mb-3">
+                                Check out the latest smartphones in our collection
+                            </p>
+                            <a asp-controller="Products" asp-action="Index"
+                               class="btn btn-warning btn-lg px-4 py-2 shadow">
+                                Shop Now
+                            </a>
+                        </div>
+                        <div class="col-lg-6 text-center mt-2 mt-lg-0">
+                            <img src="/images/b4.jpg" alt="New Arrivals" class="img-fluid" style="max-height: 350px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+</section>
+

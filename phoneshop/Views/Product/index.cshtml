@@ -1,0 +1,148 @@
+﻿@model List<phoneshop.Models.Product>
+
+@{
+    ViewData["Title"] = "Products";
+}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+    body {
+        background: linear-gradient(135deg, #141e30, #243b55);
+        min-height: 100vh;
+    }
+
+    .page-title {
+        font-weight: 700;
+        margin: 20px 0;
+    }
+
+    .product-card {
+        border: none;
+        border-radius: 12px;
+        transition: 0.3s;
+    }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+
+    .product-img {
+        height: 180px;
+        object-fit: contain;
+        padding: 15px;
+    }
+
+    .price {
+        font-weight: 700;
+        color: #198754;
+    }
+
+    .rating {
+        background: #28a745;
+        color: white;
+        font-size: 13px;
+        padding: 3px 7px;
+        border-radius: 5px;
+    }
+
+    .qty-box {
+        background: #f1f1f1;
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-weight: 600;
+    }
+
+    .btn-sm {
+        padding: 4px 10px;
+    }
+
+</style>
+
+<div class="container">
+
+    <h2 class="text-center page-title" style="color:white;">Product</h2>
+    <div class="text-end mb-3">
+        <a asp-action="Cart" class="btn btn-dark">
+            🛒 Cart
+        </a>
+    </div>
+
+    @if (TempData["message"] != null)
+    {
+        <div class="alert alert-success text-center">
+            @TempData["message"]
+        </div>
+    }
+
+    <div class="row">
+
+        @foreach (var item in Model)
+        {
+            var cart = ViewBag.Cart as List<phoneshop.Models.CartItem>;
+            var qty = cart?.FirstOrDefault(x => x.Product.Id == item.Id)?.Quantity ?? 0;
+
+            <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+
+                <div class="card product-card text-center">
+
+                    <img src="@item.Image" class="product-img" />
+
+                    <div class="card-body">
+
+                        <h6 class="fw-bold">@item.Name</h6>
+
+                        <div class="mb-2">
+
+                            <span class="price">₹@item.Price</span>
+
+                            <span class="rating ms-2">
+                                ⭐ @item.Rating
+                            </span>
+
+                        </div>
+
+                        <p class="text-muted small">@item.Description</p>
+
+                        <div class="d-flex justify-content-center align-items-center gap-2 mb-2">
+
+                            <a asp-action="DecreaseQty"
+                               asp-route-id="@item.Id"
+                               class="btn btn-outline-danger btn-sm">-</a>
+
+                            <span class="qty-box">@qty</span>
+
+                            <a asp-action="IncreaseQty"
+                               asp-route-id="@item.Id"
+                               class="btn btn-outline-success btn-sm">+</a>
+
+                        </div>
+
+                        <div class="d-grid gap-2">
+
+                            <a asp-action="AddToCart"
+                               asp-route-id="@item.Id"
+                               class="btn btn-warning btn-sm">
+                                Add to Cart
+                            </a>
+
+                            <a asp-action="Details"
+                               asp-route-id="@item.Id"
+                               class="btn btn-primary btn-sm">
+                                View Details
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>

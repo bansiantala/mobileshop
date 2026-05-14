@@ -1,0 +1,121 @@
+﻿@{
+    ViewData["Title"] = "Contact";
+}
+
+<!-- ===== HERO SECTION ===== -->
+<section class="contact-hero py-3" style="background: linear-gradient(135deg, #141e30, #243b55);">
+    <div class="container text-center text-white">
+        <h1 class="display-5 fw-bold mb-2">Contact Us</h1>
+        <p class="lead mb-3">We would love to hear from you </p>
+    </div>
+</section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section class="contact-section py-4" style="background: linear-gradient(135deg, #141e30, #243b55);">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- Contact Info -->
+            <div class="col-lg-5 text-balck">
+                <div class="contact-info">
+                    <h3 class="fw-bold mb-3">Get In Touch</h3>
+
+                    <p class="mb-1"><strong> Address:</strong> Rajkot, Gujarat, India</p>
+                    <p class="mb-1"><strong> Phone:</strong> +91 98765 43210</p>
+                    <p class="mb-1"><strong> Email:</strong> support@phoneshop.com</p>
+
+                    <hr class="my-3" />
+
+                    <h5 class="mt-3 mb-1">Business Hours</h5>
+                    <p class="mb-1">Mon - fri: 9:00 AM - 8:00 PM</p>
+                    <p class="mb-0">Saturday:Sunday Closed</p>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-lg-7">
+                <div class="contact-form shadow-sm p-3 rounded bg-white">
+                    <form method="post" class="needs-validation" novalidate>
+
+                        <div class="mb-2">
+                            <label class="form-label">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter your name" required>
+                            <div class="invalid-feedback">
+                                Please enter your name.
+                            </div>
+                        </div>
+
+                        <div class="mb-2">
+                            <label class="form-label">Email Address</label>
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <div class="invalid-feedback">
+                                Please enter a valid email address.
+                            </div>
+                        </div>
+
+                        <div class="mb-2">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-control" rows="3" placeholder="Write your message..." required></textarea>
+                            <div class="invalid-feedback">
+                                Please enter your message.
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-warning w-100 rounded-pill mt-2">
+                            Send Message
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ===== CUSTOM CSS ===== -->
+<style>
+    .contact-hero h1 {
+        letter-spacing: 1px;
+    }
+
+    .contact-hero p {
+        font-size: 1rem;
+    }
+</style>
+
+<!-- ===== BOOTSTRAP VALIDATION SCRIPT ===== -->
+<script>
+    // Bootstrap 5 custom validation
+    (function () {
+        'use strict'
+        const forms = document.querySelectorAll('.needs-validation')
+        Array.from(forms).forEach(function (form) {
+            form.addEventListener('submit', function (event) {
+                if (!form.checkValidity()) {
+                    event.preventDefault()
+                    event.stopPropagation()
+                }
+                form.classList.add('was-validated')
+            }, false)
+        })
+    })();
+</script>
+
+
+<!-- ===== CUSTOM CSS ===== -->
+<style>
+    .team-section h2 {
+        letter-spacing: 1px;
+    }
+
+    .team-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+        transition: all 0.3s ease;
+    }
+
+    .team-card img {
+        border: 3px solid #ffc107; /* Optional: golden border */
+    }
+</style>

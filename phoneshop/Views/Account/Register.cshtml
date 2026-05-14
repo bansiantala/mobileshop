@@ -1,0 +1,74 @@
+﻿@model phoneshop.Models.User
+@{
+    ViewData["Title"] = "Register";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #141e30, #243b55);
+        min-height: 100vh;
+    }
+
+    .register-wrapper {
+        margin-top: 70px;
+    }
+
+    .register-card {
+        border-radius: 15px;
+    }
+
+    .form-control {
+        border-radius: 8px;
+    }
+
+    .btn-register {
+        border-radius: 8px;
+        font-weight: 600;
+        
+    }
+</style>
+
+<div class="container register-wrapper">
+
+    <div class="card shadow-lg p-4 col-md-4 mx-auto register-card">
+
+        <h3 class="text-center text-primary mb-4">Create Account</h3>
+
+        <form asp-action="Register" method="post">
+
+            <div class="mb-3">
+                <label class="form-label">Full Name</label>
+                <input asp-for="FullName" class="form-control" placeholder="Enter your name" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" placeholder="Enter your email" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input asp-for="Password" type="password" class="form-control" placeholder="Enter password" />
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Confirm Password</label>
+                <input name="ConfirmPassword" type="password" class="form-control" placeholder="Confirm password" />
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 btn-register">
+                Register
+            </button>
+
+        </form>
+
+        <p class="text-center mt-3">
+            Already have an account?
+            <a asp-action="Login" class="fw-bold text-decoration-none">
+                Login
+            </a>
+        </p>
+
+    </div>
+
+</div>

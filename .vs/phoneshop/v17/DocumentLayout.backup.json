@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\BANSI ANTALA\\.NET\\phoneshop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\admin\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\views\\home\\cart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\views\\product\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|e:\\bansi antala\\.net\\phoneshop\\phoneshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FC9FB46B-13B5-4C8F-8B25-BA31C9C66FF6}|phoneshop\\phoneshop.csproj|solutionrelative:phoneshop\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "phoneshop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "phoneshop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T07:11:43.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "phoneshop\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "phoneshop\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T07:08:42.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Admin\\Login.cshtml",
+              "RelativeDocumentMoniker": "phoneshop\\Admin\\Login.cshtml",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Admin\\Login.cshtml",
+              "RelativeToolTip": "phoneshop\\Admin\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T07:07:27.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "phoneshop\\wwwroot\\css\\site.css",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "phoneshop\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-13T06:05:30.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "phoneshop\\Views\\Product\\Details.cshtml",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "phoneshop\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAIwGUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T06:00:26.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "phoneshop\\Models\\Order.cs",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Models\\Order.cs",
+              "RelativeToolTip": "phoneshop\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T04:38:40.149Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "order.cshtml",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Product\\order.cshtml",
+              "RelativeDocumentMoniker": "phoneshop\\Views\\Product\\order.cshtml",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Product\\order.cshtml",
+              "RelativeToolTip": "phoneshop\\Views\\Product\\order.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T04:32:39.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cart.cshtml",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Home\\cart.cshtml",
+              "RelativeDocumentMoniker": "phoneshop\\Views\\Home\\cart.cshtml",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Home\\cart.cshtml",
+              "RelativeToolTip": "phoneshop\\Views\\Home\\cart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T04:00:21.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Product\\index.cshtml",
+              "RelativeDocumentMoniker": "phoneshop\\Views\\Product\\index.cshtml",
+              "ToolTip": "E:\\BANSI ANTALA\\.NET\\phoneshop\\phoneshop\\Views\\Product\\index.cshtml",
+              "RelativeToolTip": "phoneshop\\Views\\Product\\index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAIYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-13T03:54:11.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

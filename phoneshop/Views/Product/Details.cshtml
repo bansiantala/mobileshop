@@ -1,0 +1,110 @@
+﻿@model phoneshop.Models.Product
+
+@{
+    ViewData["Title"] = "Product Details";
+}
+
+<style>
+    body {
+        background: linear-gradient(135deg, #141e30, #243b55);
+        color: white; /* White text for contrast */
+    }
+
+    .card {
+        background-color: #ffffff; /* Keep cards white */
+        color: black; /* Card text black */
+    }
+
+    a.btn-outline-secondary {
+        color: black;
+        border-color: black;
+    }
+
+        a.btn-outline-secondary:hover {
+            background-color: black;
+            color: white;
+        }
+</style>
+
+<h2 class="text-center mb-4">Product Details</h2>
+
+<div class="container mt-3">
+    <div class="row justify-content-center">
+
+        <!-- Product Card -->
+        <div class="col-md-8">
+            <div class="card shadow-lg border-0 rounded-4">
+                <div class="row g-0">
+
+                    <!-- Product Image -->
+                    <div class="col-md-5 text-center p-4">
+                        <img src="@Model.Image" class="img-fluid rounded-3" style="max-height:300px;" />
+                    </div>
+
+                    <!-- Product Details -->
+                    <div class="col-md-7">
+                        <div class="card-body">
+
+                            <h2 class="card-title fw-bold">@Model.Name</h2>
+
+                            <div class="mt-2">
+                                @* Product Rating *@
+                                @for (int i = 1; i <= 5; i++)
+                                {
+                                    if (i <= Model.Rating)
+                                    {
+                                        <span class="text-warning">&#9733;</span>  @* Filled star *@
+                                    }
+                                    else
+                                    {
+                                        <span class="text-secondary">&#9733;</span>  @* Empty star *@
+                                    }
+                                }
+                            </div>
+
+                            <p class="text-muted mt-3">@Model.Description</p>
+
+                            <h3 class="text-success mt-3">₹@Model.Price</h3>
+
+                            <!-- Action Buttons -->
+                            <div class="mt-4">
+                                <a asp-action="Index" class="btn btn-outline-secondary px-4">
+                                    Back
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Related Products Section -->
+    @if (ViewBag.RelatedProducts != null)
+    {
+        <h3 class="mt-5">You might also like</h3>
+        <div class="row">
+            @foreach (var item in ViewBag.RelatedProducts as List<phoneshop.Models.Product>)
+            {
+                <div class="col-md-3 mb-3">
+                    <div class="card h-100 shadow-sm">
+                        <img src="@item.Image" class="card-img-top" style="height:150px; object-fit:cover;" />
+                        <div class="card-body">
+                            <h5 class="card-title">@item.Name</h5>
+                            <p class="text-success mb-2">₹@item.Price</p>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary btn-sm">View</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</div>
+
+<!-- Optional Back to Top Button -->
+<a href="#" class="btn btn-dark position-fixed bottom-0 end-0 m-4 rounded-circle p-3" style="z-index:1000;">
+    ↑
+</a>

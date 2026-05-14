@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "63548326296",
+    "project_id": "phoneshop-8bbad",
+    "storage_bucket": "phoneshop-8bbad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63548326296:android:d3c3d4afab9ebc073d2bed",
+        "android_client_info": {
+          "package_name": "com.example.phoneshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARTO_bC424e7HP_ERaaRNt7DM7k8Jwzy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

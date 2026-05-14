@@ -1,0 +1,19 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Dashboard";
+}
+<h2>Welcome, Admin!</h2>
+<div style="display:flex;gap:20px;margin-top:20px;">
+    <div style="background:#1b2a47;padding:20px;border-radius:10px;">
+        <h3>Users</h3>
+        <p>@ViewBag.UsersCount</p>
+    </div>
+    <div style="background:#1b2a47;padding:20px;border-radius:10px;">
+        <h3>Products</h3>
+        <p>@ViewBag.ProductsCount</p>
+    </div>
+    <div style="background:#1b2a47;padding:20px;border-radius:10px;">
+        <h3>Orders</h3>
+        <p>@ViewBag.OrdersCount</p>
+    </div>
+</div>
